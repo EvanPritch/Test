@@ -58,7 +58,7 @@ def split_input_target(chunk):
 
 @ex.config
 def config():
-    training_data = "40gev/Mass/particle-type-5000000.json"
+    training_data = "40gev/mass/particle-type-5000000.json"
     logdir = "Test"
     checkpoint_period = 1
     epochs = 5
